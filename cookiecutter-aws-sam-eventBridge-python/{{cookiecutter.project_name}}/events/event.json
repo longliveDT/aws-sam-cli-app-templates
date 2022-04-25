@@ -1,0 +1,14 @@
+{
+  "detail-type":"EC2 Instance State-change Notification",
+  "source":"aws.ec2",
+  "account":"232672174030",
+  "time":"2015-11-11T21:29:54Z",
+  "region":"us-east-1",
+  "version":"0",
+  "resources":[
+    "arn:aws:ec2:us-east-1:232672174030:instance/*"
+  ],
+  "detail":{
+    "state": ["pending", "running"]
+  }
+}
